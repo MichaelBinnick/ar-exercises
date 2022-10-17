@@ -34,7 +34,3 @@ Store.create(
 @mens_stores.each do |store| puts "Name: #{store.name}, Annual Revenue: #{store.annual_revenue}" end
 
 @womens_stores = Store.where(womens_apparel: true, annual_revenue: ...1000000)
-
-puts @womens_stores[0].name
-puts @womens_stores[1].name
-puts @womens_stores[2].name
