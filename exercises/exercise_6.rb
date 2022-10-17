@@ -17,4 +17,4 @@ Employee.belongs_to:store
 @store1.employees.create(first_name: "Francis", last_name: "Bourgeoin", hourly_rate: 50)
 @store2.employees.create(first_name: "Gary", last_name: "Jipp", hourly_rate: 80)
 @store2.employees.create(first_name: "Bill", last_name: "Gates", hourly_rate: 79)
-@store2.employees.create(first_name: "My", last_name: "Man", hourly_rate: 500)
+@store2.employees.create(first_name: "My", last_name: "Man", hourly_rate: 200)
